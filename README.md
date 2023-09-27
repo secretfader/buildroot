@@ -5,7 +5,7 @@ Buildroot is a toolkit for creating embedded Linux environments. This repository
 ## Usage
 
 ```
-docker run -v $(pwd):/buildroot-2023.05.2/output -it ghcr.io/secretfader/buildroot:2023.05.2 bash
+docker run -v $(pwd)/output:/buildroot-2023.08/output -it ghcr.io/secretfader/buildroot:2023.08 bash
 ```
 
 ## License
